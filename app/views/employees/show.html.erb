@@ -3,3 +3,4 @@
 <li>Alias: <%="#{@employee.alias}"  %></li>
 <li>Office: <%="#{@employee.office}"  %></li>
 <p>Pet: <%= @employee.dog.name %></p>
+<%= link_to "edit #{@employee.first_name}", edit_employee_path  %>
